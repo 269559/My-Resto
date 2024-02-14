@@ -1,0 +1,155 @@
+/* Reset CSS for cross-browser consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header h2 {
+    font-size: 1.5em;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2em;
+    
+}
+
+
+/* Ajoutez ces styles pour ajuster la taille du carrousel */
+#myCarousel {
+    margin-top: 20px;
+    max-width: 800px; /* Ajustez la largeur maximale selon vos besoins */
+    margin: auto; /* Centrez le carrousel */
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 400px; /* Ajustez la hauteur selon vos besoins */
+}
+
+.carousel-control-prev, .carousel-control-next {
+    width: 5%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100%;
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Us section styles */
+#Us h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#Us h4 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#Us p {
+    font-size: 1em;
+}
+
+
+/* Our Dishes section styles */
+#Our Dishes h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#Our Dishes h4,
+#Our Dishes h5 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+#Our Dishes p {
+    font-size: 1em;
+}
+
+/* Reservation section styles */
+#Reservation h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+
+input,
+select,
+button {
+    margin-bottom: 10px;
+    padding: 8px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Contact section styles */
+#Contact h5 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
